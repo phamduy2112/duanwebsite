@@ -11,3 +11,6 @@ bar_nav.onclick=function () {
    menu.classList.remove('trans')
  }
  
+//  user
+var user=document.getElementById('user').value;
+console.log(user);

@@ -10,6 +10,10 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -170,64 +174,124 @@
         </div>
       </header>
   <main>
-<div class="container-md pro_tofile">  <h3>Chinh sua thong tin</h3>
-      <div class="profile__right bg-white" id="">
-      
-            <div class="profile__img">
-                <img src="" alt="">
-                
+    <div class="cart">
+        <div class="container-md">
+            <div class="cart__title">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                  </nav>
+                    <p>Gio hang cua ban</p>
             </div>
-          
+            <div class="cart__flex">
+               <div class="cart__left">
+                <div class="cart__bottom_top">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>
+                                PRODUCT</th>
+                            <th>	
+                                QUANTITY</th>
+                            <th>SUBTOTAL:</th>
+                            <th></th>
+                        </tr>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="product__cart">
+                                         <div class="image__product">
+                                        <img src="../img/sanpham/products_35_1.webp" alt="" class="">
+                                    </div> 
+                                    <div class="title__product">
+                                        <p>Laptop Apple MacBook Pro M1 16GB/512GB</p>
+                                        <p>2.000.000d</p>
+                                    </div>
+                                    </div>
+                                  
+                                    
+                                </td>
+                                <td>
+                                    <div class="number__count">
+                                        <div class="number__count_pr">
+                                             <i class="fa-solid fa-plus solid"></i>
+                                        <div class="number">
+                                            1
+                                        </div>
+                                        <i class="fa-solid fa-minus solid"></i>  
+                                        </div>
+                                      
+                                      
+                                    </div>
+                                </td>
+                                <td>
+                                    7.000.000d
+                                </td>
+                                <td>
+                                    <a href=""><i class="fa-solid fa-minus solid"></i>  </a>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product__cart">
+                                         <div class="image__product">
+                                        <img src="../img/sanpham/products_35_1.webp" alt="" class="">
+                                    </div> 
+                                    <div class="title__product">
+                                        <p>Laptop Apple MacBook Pro M1 16GB/512GB</p>
+                                        <p>2.000.000d</p>
+                                    </div>
+                                    </div>
+                                  
+                                    
+                                </td>
+                                <td>
+                                    <div class="number__count">
+                                        <div class="number__count_pr">
+                                             <i class="fa-solid fa-plus solid"></i>
+                                        <div class="number">
+                                            1
+                                        </div>
+                                        <i class="fa-solid fa-minus solid"></i>  
+                                        </div>
+                                      
+                                      
+                                    </div>
+                                </td>
+                                <td>
+                                    $230.00
+                                </td>
+                                <td>
+                                    <i class="fa-solid fa-minus solid"></i>  
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                       
+                    </table>
+                     <div class="carts__links">
+                        <a href="" class="btn btn-danger">Mua hang tiep tuc</a>
+                        <a href="" class="btn btn-danger">Xoa Tat ca</a>
+                     </div>
+                </div>
+            </div>
+            <div class="cart__right">
+                <h3>Gio hang cua ban</h3>
+                <hr>
+                <p>So luong:3</p>
             
-               
-         
-            <div class="profile__form">
-                
-                <form action="" onsubmit="return check()">
-                    <input type="file" class="">
-                    <div class="form__profile_group">
-                        <p>Username</p>
-                        <input type="text" value="duyp7484" id="user">
-                    </div>
-                    <div class="profile_group_flex">
-                        <div class="form__profile_group">
-                            <p>Password</p>
-                            <input type="password" value="0334491141" >
-                        </div>
-                        <div class="form__profile_group">
-                            <p>Vai trò</p>
-                            <input type="text" value="Quản trị" >
-                        </div>
-                    </div>
-                    <div class="form__profile_group">
-                        <p>Họ tên</p>
-                        <input type="text" value="Phạm Ngọc Duy" >
-                    </div>
-                    <div class="profile_group_flex">
-                        <div class="form__profile_group">
-                            <p>Email</p>
-                            <input type="text" value="0334491141" >
-                        </div>
-                        <div class="form__profile_group">
-                            <p>Số Điện Thoại</p>
-                            <input type="text" value="0334491141" >
-                        </div>
-                    </div>
-                    
-                    <div class="form__profile_group">
-                        <p>Địa chỉ</p>
-                        <input type="text" value="ASDASDASD" >
-                    </div>
-                    <div class="buttons">
-                    <a href="">Xem thông tin chi tiết</a>
-                    <a href="">Chỉnh sửa</a>
-                 
-                    </div>
-                 
-                </form>
+                <p>Tong tien</p>
+            </div> 
             </div>
-           </div>
-</div>
+            
+           
+        </div>
+    </div>
   </main>
   <footer class="mt-5">
     <div class="container-md">
